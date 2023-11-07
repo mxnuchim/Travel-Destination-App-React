@@ -1,0 +1,5 @@
+.verticleText {
+    writing-mode: vertical-lr;
+    display: inline-block;
+    rotate: 180deg;
+  }

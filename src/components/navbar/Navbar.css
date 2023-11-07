@@ -1,0 +1,28 @@
+.nav-container {
+  margin-top: 50px;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 178px;
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 2px 3px #000;
+}
+
+ul li:hover {
+  border-bottom: 2px solid white;
+  transition: border-bottom 1s;
+}
+
+ul li {
+  border-bottom: 2px solid transparent;
+}
